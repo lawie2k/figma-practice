@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2f1893;
+}
+.navbar {
+  padding: 85px;
+}
+.navbar-content {
+  display: flex;
+  text-align: center;
+  gap: 44px;
+  justify-self: center;
+  font-size: 18px;
+}
+
+.navbar-content li {
+  list-style: none;
+  color: white;
+}
+.navbar-content li:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+.hero {
+  margin-top: 142px;
+  justify-self: center;
+  align-items: center;
+  width: 736px;
+  height: 257px;
+}
+.hero-start {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.hero-title {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+}
+.hero-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+}
+.hero-second {
+  justify-self: center;
+}
+.hero-circles {
+  justify-self: center;
+  display: flex;
+  gap: 20px;
+}
+.circle-1 {
+  width: 11px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 58px;
+  margin-top: 49px;
+}
+.circle {
+  width: 11px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid;
+  margin-bottom: 58px;
+  margin-top: 48px;
+}
+.hero-btn {
+  padding: 17px 36px;
+  background-color: #482be7;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 50px;
+}
