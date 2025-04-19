@@ -1,28 +1,14 @@
 body {
-  font-family: "Poppins", sans-serif;
+  background-color: #482be7;
+  padding: 0;
+  margin: 0;
+}
+.container-first {
   background-image: url(background.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2f1893;
-}
-.navbar {
-  padding: 85px;
-}
-.navbar-content {
-  display: flex;
-  text-align: center;
-  gap: 44px;
-  justify-self: center;
-  font-size: 18px;
-}
-
-.navbar-content li {
-  list-style: none;
-  color: white;
-}
-.navbar-content li:hover {
-  cursor: pointer;
-  opacity: 50%;
+  background-repeat: no-repeat;
+  width: 1680px;
+  height: 1000px;
 }
 .hero {
   margin-top: 142px;
@@ -81,4 +67,106 @@ body {
   font-weight: 500;
   border: 0;
   border-radius: 50px;
+}
+.container-second {
+  background-image: url(Image\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1680px;
+  height: 600px;
+}
+.content {
+  justify-items: center;
+  text-align: center;
+  margin-top: -15px;
+}
+.content-text {
+  color: white;
+  width: 815px;
+  height: 307px;
+}
+.content-text h3 {
+  padding-top: 120px;
+  font-size: 14px;
+}
+.content-text h2 {
+  font-size: 58px;
+  font-weight: 800;
+}
+.content-text p {
+  font-size: 18px;
+  font-weight: 30px;
+  line-height: 28px;
+}
+.container-third {
+  background-image: url(Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1680px;
+  height: 900px;
+}
+.features-content {
+  display: flex;
+  padding-top: 200px;
+}
+.features-text {
+  color: white;
+  width: 600px;
+  height: 168px;
+  margin-top: 50px;
+}
+.features-text h1 {
+  font-size: 42px;
+}
+.features-text p {
+  font-size: 22px;
+}
+
+.lower-text {
+  display: flex;
+  margin-top: 65px;
+}
+.second-text {
+  width: 271px;
+  height: 186px;
+}
+.second-text h2 {
+  font-size: 14px;
+  font-weight: 100px;
+}
+.second-text p {
+  font-size: 16px;
+  font-weight: 50px;
+}
+.third-features {
+  width: 271px;
+  height: 186px;
+}
+.third-features h2 {
+  font-size: 14px;
+  font-weight: 100px;
+}
+.third-features p {
+  font-size: 16px;
+  font-weight: 50px;
+}
+.features-circles {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-left: 159px;
+  margin-top: 200px;
+}
+.circle-1f {
+  width: 11px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.circle-f {
+  width: 11px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid;
 }

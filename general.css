@@ -1,0 +1,28 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  padding: 85px;
+}
+.navbar-content {
+  display: flex;
+  text-align: center;
+  gap: 44px;
+  justify-self: center;
+}
+.navbar-content a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+.navbar-content img {
+  margin-top: 4px;
+}
+.navbar-content li {
+  list-style: none;
+  color: white;
+}
+.navbar-content li:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
