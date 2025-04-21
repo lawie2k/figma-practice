@@ -180,7 +180,7 @@ body {
   width: 1680px;
   height: 750px;
 }
-.form {
+#form {
   margin-top: 160px;
   display: flex;
   justify-self: center;
@@ -355,13 +355,12 @@ body {
 }
 .yt-btn {
   padding: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
   border-radius: 100%;
   background-color: red;
   border: 0;
   margin-right: 30px;
-}
-.yt-btn img {
-  padding-left: 5px;
 }
 .start-btn {
   padding: 25px;
