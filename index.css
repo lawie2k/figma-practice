@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 .container-first {
-  background-image: url(background.png);
+  background-image: url(background-hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1680px;
@@ -72,7 +72,7 @@ body {
   border-radius: 50px;
 }
 .container-second {
-  background-image: url(Image\ 1.png);
+  background-image: url(background-content-form.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1680px;
@@ -102,7 +102,7 @@ body {
   line-height: 28px;
 }
 .container-third {
-  background-image: url(Rectangle.png);
+  background-image: url(background-features.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1680px;
@@ -174,7 +174,7 @@ body {
   border: 1px solid;
 }
 .container-fourth {
-  background-image: url(Image\ 1.png);
+  background-image: url(background-content-form.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1680px;
