@@ -421,3 +421,52 @@ body {
   font-size: 22px;
   font-weight: 30;
 }
+.container-eight {
+  width: 1680px;
+  height: 990px;
+  background-color: #2f1893;
+  margin-top: -40px;
+  color: white;
+}
+.team {
+  justify-self: left;
+  margin-left: 115px;
+
+  width: 774px;
+  height: 179px;
+}
+.team-text h2 {
+  padding-top: 150px;
+  font-size: 42px;
+  font-weight: 600;
+}
+.team-text p {
+  width: 754px;
+  font-size: 22px;
+  line-height: 32px;
+}
+.team-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 763px;
+  height: 543px;
+  row-gap: 60px;
+  column-gap: 146px;
+}
+.team-box {
+  width: 154px;
+  height: 241px;
+}
+.team-box h2 {
+  font-size: 20px;
+}
+.team-box h3 {
+  font-size: 16px;
+  font-weight: 20;
+}
+.team-icons {
+  display: flex;
+  gap: 30px;
+  height: 16px;
+  padding-top: 16px;
+}
