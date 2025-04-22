@@ -469,3 +469,137 @@ body {
   height: 16px;
   padding-top: 16px;
 }
+.container-nine {
+  background-image: url(Background\ contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 770px;
+  color: white;
+  align-items: center;
+}
+.contacts {
+  padding-top: 150px;
+  justify-self: center;
+  display: flex;
+  gap: 200px;
+}
+.contacts-text h2 {
+  font-size: 42px;
+  width: 410px;
+}
+.contacts-text p {
+  width: 410px;
+  font-size: 22px;
+  font-weight: 30;
+  line-height: 32px;
+}
+.contacts-num {
+  display: flex;
+  gap: 10px;
+}
+.contacts-num i {
+  margin-top: 30px;
+}
+.contacts-num p {
+  font-size: 16px;
+}
+.contacts-mail {
+  display: flex;
+  gap: 10px;
+}
+.contacts-mail i {
+  margin-top: 30px;
+}
+.contacts-mail p {
+  font-size: 16px;
+}
+.contacts-address {
+  width: 280px;
+  display: flex;
+  gap: 10px;
+}
+.contacts-address i {
+  margin-top: 30px;
+}
+.contacts-address p {
+  font-size: 16px;
+}
+.contacts-box {
+  width: 470px;
+  background-color: white;
+  color: #1e0e62;
+  border-radius: 20px;
+  border: 0;
+}
+.contacts-signup {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+  justify-self: center;
+}
+.contacts-name h2 {
+  font-size: 14px;
+}
+.contacts-signup input {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 22px;
+  border-color: gainsboro;
+  border-style: solid;
+}
+.contacts-budget h2 {
+  font-size: 14px;
+}
+.contacts-budget button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 22px;
+  background-color: white;
+  border-color: gainsboro;
+  border-style: solid;
+}
+.input-field {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.input-field input {
+  width: 370px;
+  height: 50px;
+  border-color: gainsboro;
+  border-style: solid;
+  border-radius: 50px;
+  font-size: 22px;
+}
+.message {
+  margin-top: 35px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.message input {
+  border-color: gainsboro;
+  border-radius: 20px;
+  border-style: solid;
+  width: 370px;
+  height: 110px;
+}
+.submit-btn {
+  align-items: center;
+  margin-top: 30px;
+  justify-self: center;
+  display: flex;
+  gap: 120px;
+}
+.submit-btn button {
+  padding: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #25dac5;
+  color: white;
+}
