@@ -119,10 +119,29 @@
             <h2>We solve digital problems with an outstanding creative flare</h2>
             <p>We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</p>
           </div>
-          <div class="form-signup">
+          <div class="form-login" id="form-login" style="display: none" >
+            <div class="login-text" >
+              <button id="signup-btn-login"><h2>SIGN UP</h2></button>
+              <button id="login-btn-login"><h2>LOGIN</h2></button>
+            </div>
+            <div class="login-body">
+              <div class="login-user" >
+                <input type="text" placeholder="username">
+              </div>
+              <div class="login-pass">
+                <input type="password" placeholder="password">
+              </div>
+              <div class="login-buttons">
+                <div class="login-btn">
+                  <button>Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-signup" id="form-signup">
             <div class="signup-text">
-              <h2>SIGN UP</h2>
-              <h2>LOGIN</h2>
+              <button id="signup-btn-signup"><h2>SIGN UP</h2></button>
+              <button id="login-btn-signup"><h2>LOGIN</h2></button>
             </div>
             <div class="signup-body">
               <div class="signup-user" >
@@ -312,7 +331,7 @@
           <div class="contacts-signup">
             <div class="contacts-name">
               <h2>YOUR NAME</h2>
-              <input type="text">
+              <input type="text" placeholder="first name">
             </div>
             <div class="contacts-budget">
               <h2>BUDGET</h2>
@@ -321,11 +340,11 @@
           </div>
           <div class="input-field">
             <label for="text">INPUT FIELD</label>
-            <input type="text">
+            <input type="text" placeholder="name@mail.com">
           </div>
           <div class="message">
             <label for="text">YOUR MESSAGE</label>
-            <input type="text">
+           <textarea name="your message" placeholder="message"></textarea>
           </div>
           <div class="submit-btn">
             <div class="checkbox">
@@ -336,5 +355,6 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -218,6 +218,14 @@ body {
 .signup-text h2 {
   font-size: 14px;
 }
+.signup-text button {
+  background-color: transparent;
+  border: 0;
+}
+.signup-text button:hover {
+  color: #25dac5;
+  cursor: pointer;
+}
 .signup-body {
   justify-self: center;
   padding-top: 100px;
@@ -262,6 +270,67 @@ body {
   border-radius: 50px;
   border: 0;
   background-color: #1da1f2;
+  color: white;
+}
+.form-login {
+  width: 470px;
+  height: 550px;
+  background-color: white;
+  border: 0;
+  border-radius: 20px;
+}
+.login-text {
+  display: flex;
+  justify-self: center;
+  gap: 200px;
+  color: #1e0e62;
+}
+.login-text button {
+  background-color: transparent;
+  border: 0;
+}
+.login-text h2 {
+  font-size: 14px;
+}
+.login-text button:hover {
+  color: #25dac5;
+  cursor: pointer;
+}
+.login-body {
+  justify-self: center;
+  padding-top: 100px;
+}
+.login-user input {
+  width: 330px;
+  height: 50px;
+  border: 1;
+  border-color: gainsboro;
+  border-radius: 50px;
+  border-style: solid;
+  font-size: 18px;
+  background-color: white;
+}
+.login-pass input {
+  width: 330px;
+  height: 50px;
+  border: 1;
+  border-color: gainsboro;
+  border-radius: 50px;
+  border-style: solid;
+  font-size: 18px;
+  margin-top: 30px;
+  background-color: transparent;
+}
+.login-buttons h3 {
+  justify-self: center;
+}
+.login-btn button {
+  margin-top: 40px;
+  width: 330px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #25dac5;
   color: white;
 }
 .container-fifth {
@@ -580,10 +649,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.message input {
+.message textarea {
   border-color: gainsboro;
-  border-radius: 20px;
+  resize: none;
+  border-radius: 10px;
   border-style: solid;
+  font-size: 16px;
   width: 370px;
   height: 110px;
 }
