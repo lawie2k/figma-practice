@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  max-width: 1440px;
   background-color: #482be7;
   padding: 0;
   margin: 0;
@@ -264,6 +265,9 @@ body {
   background-color: #25dac5;
   color: white;
 }
+.signup-btn button:hover {
+  background-color: #1ba191;
+}
 .twitter-signup button {
   width: 330px;
   height: 50px;
@@ -271,6 +275,9 @@ body {
   border: 0;
   background-color: #1da1f2;
   color: white;
+}
+.twitter-signup button:hover {
+  background-color: #1d81be;
 }
 .form-login {
   width: 470px;
@@ -332,6 +339,9 @@ body {
   border: 0;
   background-color: #25dac5;
   color: white;
+}
+.login-btn button:hover {
+  background-color: #1ba191;
 }
 .container-fifth {
   width: 1680px;
@@ -431,6 +441,9 @@ body {
   border: 0;
   margin-right: 30px;
 }
+.yt-btn:hover {
+  background-color: pink;
+}
 .start-btn {
   padding: 25px;
   padding-left: 50px;
@@ -439,6 +452,11 @@ body {
   border: 0;
   background-color: #25dac5;
   color: white;
+}
+.start-btn:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.3s;
 }
 .container-seven {
   background-color: #2f1893;
@@ -847,4 +865,5 @@ body {
   background-color: #e93a7d;
   border: 0;
   border-color: transparent;
+  transition-duration: 0.3s;
 }

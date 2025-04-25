@@ -2,6 +2,7 @@
   font-family: "Poppins", sans-serif;
 }
 .navbar {
+  padding-left: 0;
   padding: 85px;
 }
 .navbar-content {
@@ -15,9 +16,6 @@
   font-size: 18px;
   color: white;
 }
-.navbar-content img {
-  margin-top: 4px;
-}
 .navbar-content li {
   list-style: none;
   color: white;
@@ -25,4 +23,51 @@
 .navbar-content li:hover {
   cursor: pointer;
   opacity: 50%;
+}
+/*-------Nav Footer-----*/
+.footer {
+}
+.top-footer {
+  align-items: center;
+  width: 1170px;
+  margin-top: 50px;
+  display: flex;
+  justify-self: center;
+  gap: 750px;
+  color: white;
+}
+.top-footer h2 {
+  font-size: 24px;
+}
+.top-footer ul {
+  justify-self: end;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.top-footer li {
+  font-size: 16px;
+}
+.line {
+  justify-self: center;
+  width: 1170px;
+}
+.bottom-footer {
+  width: 1170px;
+  display: flex;
+  justify-self: center;
+  gap: 350px;
+  padding-bottom: 45px;
+}
+.bottom-footer ul {
+  padding-left: 0;
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 30px;
+}
+.bottom-footer h2 {
+  font-size: 16px;
+  color: white;
+  font-weight: 50;
 }
